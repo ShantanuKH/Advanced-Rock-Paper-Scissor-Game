@@ -25,6 +25,9 @@ This is an advanced version of the classic Rock Paper Scissors game implemented 
 - **Reset Score**: Option to reset the score to zero.
 
 ## Screenshots
+![SS](https://github.com/ShantanuKH/Advanced-Rock-Paper-Scissor-Game/assets/99231251/0e4e4a38-3eff-4977-820b-a98301f0a552)
+![SS1](https://github.com/ShantanuKH/Advanced-Rock-Paper-Scissor-Game/assets/99231251/474200ff-b7ef-48b6-ac99-4285b5612191)
+
 
 
 ## Author
