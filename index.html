@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advanced Rock Paper Scissors Game</title>
+    <!-- By using link element we  link our HTML file with CSS file -->
+  <link rel="stylesheet" href="rock Paper Scissor.css">
+  </head>
+  <body>
+   <div class="body-border"> 
+    <p class="title">Rock Paper Scissors Game</p>
+    <button onclick="
+      playGame('rock');
+    " class="move-button"><img src="images/rock-emoji.png" class="move-icon"></button>
+
+    <button onclick="
+      playGame('paper');
+    " class="move-button"><img src="images/paper-emoji.png" class="move-icon"></button>
+
+    <button onclick="
+      playGame('scissors');
+    " class="move-button"><img src="images/scissors-emoji.png" class="move-icon"></button>
+
+    <p class="js-result result"></p>
+    <p class="js-moves">
+    </p>
+    <p class="js-score score"></p>
+
+    <button onclick="
+      score.wins = 0;
+      score.losses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+      updateScoreElement();
+    " class="reset-score-button">Reset Score</button>
+    <button class="auto-play-button" onclick="
+    autoPlay();
+    
+    ">Auto Play</button>
+
+
+
+
+</div>
+    <!-- We link our HTML file with JavaScript file -->
+    <script src="rock Paper Scissor.js"> </script>
+
+
+  </body>
+</html>
