@@ -1,6 +1,6 @@
 # Advanced Rock Paper Scissors Game
 
-This is an advanced version of the classic Rock Paper Scissors game implemented using HTML, CSS, and JavaScript. In addition to the basic gameplay, this version includes an auto-play feature for continuous play against the computer.
+This is an advanced version of the classic Rock Paper Scissors game implemented using HTML, CSS, and JavaScript. In addition to the basic gameplay, this version includes an auto-play feature for continuous play against the computer.It is easy to play
 
 ## How to Play
 
